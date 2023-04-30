@@ -1,0 +1,36 @@
+{
+  "name": "node-worker-threads",
+  "version": "1.0.0",
+  "description": "A deep dive into Node worker threads",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beatifulcoder/node-worker-threads.git"
+  },
+  "keywords": [
+    "Node",
+    "JavaScript",
+    "workerpool"
+  ],
+  "author": "C R",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/beatifulcoder/node-worker-threads/issues"
+  },
+  "homepage": "https://github.com/beatifulcoder/node-worker-threads#readme",
+  "devDependencies": {
+    "eslint": "^8.39.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.7.0",
+    "eslint-plugin-promise": "^6.1.1"
+  },
+  "dependencies": {
+    "workerpool": "^6.4.0"
+  }
+}
